@@ -1,0 +1,15 @@
+{
+  "name": "makhzan",
+  "version": "0.1.0",
+  "description": "Open-source point of sale and inventory for shops and minimarkets. Barcode scanning with a USB scanner or the phone camera, receipts, receiving stock, stock counts, low-stock alerts, returns, barcode labels, profit and reports. No dependencies.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT",
+  "keywords": ["pos", "point-of-sale", "inventory", "stock", "barcode", "retail", "minimarket", "self-hosted", "arabic"]
+}
